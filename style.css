@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+}
+
+.parallaxImage {
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.parallaxImage1 {
+	height: 100vh;
+	background-image: url(assets/skyrim-main.jpg);
+}
+
+.parallaxImage2 {
+	height: 600px;
+	background-image: url(assets/skyrim-northernlights.jpg);
+}
+
+.parallaxImage3 {
+	height: 600px;
+	background-image: url(assets/skyrim-river2.jpg);
+}
+
+.h1 {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 14px 20px 14px 20px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 50px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 0;
+}
+
+.information {
+	max-width: 500px;
+}
